@@ -20,9 +20,8 @@ public class Main {
                 if (A[i] > A[j]) max = Math.max(max, dp[j] + 1);
             }
             dp[i] = max;
+            ans = Math.max(ans, dp[i]);
         }
-
-        for (int d : dp) ans = Math.max(ans, d);
 
         System.out.println(ans);
     }
