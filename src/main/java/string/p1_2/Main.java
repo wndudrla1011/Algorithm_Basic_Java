@@ -1,4 +1,4 @@
-package string.대소문자변환;
+package string.p1_2;
 
 import java.io.*;
 

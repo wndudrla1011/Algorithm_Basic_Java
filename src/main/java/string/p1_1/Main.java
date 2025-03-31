@@ -1,4 +1,4 @@
-package string.문자찾기;
+package string.p1_1;
 
 import java.io.*;
 import java.util.*;
