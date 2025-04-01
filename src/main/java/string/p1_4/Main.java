@@ -1,4 +1,4 @@
-package string.단어뒤집기;
+package string.p1_4;
 
 import java.io.*;
 
