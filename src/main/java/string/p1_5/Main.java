@@ -1,4 +1,4 @@
-package string.특정문자뒤집기;
+package string.p1_5;
 
 import java.io.*;
 
