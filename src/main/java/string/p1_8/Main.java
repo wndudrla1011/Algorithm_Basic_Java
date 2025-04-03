@@ -1,4 +1,4 @@
-package string.유효한팰린드롬;
+package string.p1_8;
 
 import java.io.*;
 
