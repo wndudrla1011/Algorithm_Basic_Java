@@ -1,4 +1,4 @@
-package string.중복문자제거;
+package string.p1_6;
 
 import java.io.*;
 
