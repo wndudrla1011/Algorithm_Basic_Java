@@ -1,4 +1,4 @@
-package string.회문문자열;
+package string.p1_7;
 
 import java.io.*;
 
