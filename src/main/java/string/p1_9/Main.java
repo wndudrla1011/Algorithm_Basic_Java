@@ -1,4 +1,4 @@
-package string.숫자만추출;
+package string.p1_9;
 
 import java.io.*;
 
