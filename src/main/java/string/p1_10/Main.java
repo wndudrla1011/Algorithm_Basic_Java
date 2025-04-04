@@ -6,27 +6,39 @@ import java.util.StringTokenizer;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        StringBuilder ans = new StringBuilder();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        StringBuilder ans = new StringBuilder();
-        String s = st.nextToken();
-        String t = st.nextToken();
-        char[] arr = s.toCharArray();
-        int ptr = 0; // current location
+        String str = st.nextToken();
+        String c = st.nextToken();
+        int left = 0; //이전 c가 등장한 위치
+        int right = str.indexOf(c); //다음 c가 등장하는 위치
+        int distL, distR, i;
 
-        while (ptr < s.length()) {
-            int lt = ptr - 1, rt = ptr + 1; // search t from ptr
-            if (arr[ptr] == t.charAt(0)) {
-                ans.append(0).append(" ");
-            } else {
-                while (lt >= 0 && arr[lt] != t.charAt(0)) lt--;
-                while (rt < s.length() && arr[rt] != t.charAt(0)) rt++;
-                int left, right;
-                left = (lt < 0) ? 100 : Math.abs(lt - ptr);
-                right = (rt > s.length() - 1) ? 100 : Math.abs(rt - ptr);
-                ans.append(Math.min(left, right)).append(" ");
+        for (i = 0; i <= right; i++)
+            ans.append(right - i).append(' ');
+
+        left = right;
+        right = str.indexOf(c, i);
+
+        for (int j = i; j < str.length(); j++) {
+            distL = j - left; //left 로부터 거리
+            distR = right - j; //right 로부터 거리
+
+            if (right == -1) { //마지막 c 다음부터
+                ans.append(distL).append(' ');
+                continue;
             }
-            ptr++;
+
+            if (distL < distR)
+                ans.append(distL).append(' ');
+            else
+                ans.append(distR).append(' ');
+
+            if (j == right) {
+                left = right;
+                right = str.indexOf(c, j + 1);
+            }
         }
 
         System.out.println(ans);

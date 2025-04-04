@@ -1,4 +1,4 @@
-package string.문자거리;
+package string.p1_10;
 
 import java.io.*;
 import java.util.StringTokenizer;
