@@ -1,4 +1,4 @@
-package string.암호;
+package string.p1_12;
 
 import java.io.*;
 
