@@ -1,4 +1,4 @@
-package string.문자열압축;
+package string.p1_11;
 
 import java.io.*;
 
