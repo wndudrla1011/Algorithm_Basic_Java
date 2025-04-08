@@ -1,4 +1,4 @@
-package array.가위바위보;
+package array.p2_3;
 
 import java.io.IOException;
 
