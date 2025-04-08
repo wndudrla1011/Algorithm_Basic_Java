@@ -1,4 +1,4 @@
-package array.보이는학생;
+package array.p2_2;
 
 import java.io.IOException;
 
