@@ -1,4 +1,4 @@
-package array.큰수출력하기;
+package array.p2_1;
 
 import java.io.IOException;
 
