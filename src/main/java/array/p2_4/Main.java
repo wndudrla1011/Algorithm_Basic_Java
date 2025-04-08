@@ -1,4 +1,4 @@
-package array.피보나치수열;
+package array.p2_4;
 
 import java.io.IOException;
 
