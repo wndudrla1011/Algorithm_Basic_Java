@@ -1,19 +1,25 @@
-package array.소수;
+package array.p2_5;
 
 import java.io.IOException;
 
-public class Main2 {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         int N = readInt();
         int[] prime = new int[N + 1];
         int ans = 0;
 
-        for (int i = 2; i <= N; i++) {
-            if (prime[i] == 0) {
-                ans++;
-                for (int j = i; j <= N; j = j + i) prime[j] = 1;
+        prime[0] = prime[1] = 1;
+        for (int i = 2; i <= Math.sqrt(N); i++) {
+            int j = 2;
+            while (i * j <= N) {
+                prime[i * j]++;
+                j++;
             }
+        }
+
+        for (int n : prime) {
+            if (n == 0) ans++;
         }
 
         System.out.println(ans);

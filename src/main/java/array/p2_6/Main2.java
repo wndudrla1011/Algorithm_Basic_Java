@@ -1,4 +1,4 @@
-package array.뒤집은소수;
+package array.p2_6;
 
 import java.io.IOException;
 import java.util.*;
