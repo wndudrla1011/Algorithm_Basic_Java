@@ -1,4 +1,4 @@
-package array.점수계산;
+package array.p2_7;
 
 import java.io.IOException;
 
