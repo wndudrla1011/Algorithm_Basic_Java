@@ -1,4 +1,4 @@
-package array.격자판최대합;
+package array.p2_9;
 
 import java.io.IOException;
 
