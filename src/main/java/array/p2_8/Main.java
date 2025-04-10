@@ -1,4 +1,4 @@
-package array.등수구하기;
+package array.p2_8;
 
 import java.io.IOException;
 
