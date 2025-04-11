@@ -1,4 +1,4 @@
-package array.봉우리;
+package array.p2_10;
 
 import java.io.IOException;
 
