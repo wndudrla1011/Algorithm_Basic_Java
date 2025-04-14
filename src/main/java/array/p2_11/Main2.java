@@ -1,4 +1,4 @@
-package array.임시반장정하기;
+package array.p2_11;
 
 import java.io.IOException;
 
