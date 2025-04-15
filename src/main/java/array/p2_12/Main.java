@@ -1,4 +1,4 @@
-package array.멘토링;
+package array.p2_12;
 
 import java.io.*;
 
