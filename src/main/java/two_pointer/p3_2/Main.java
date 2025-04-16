@@ -1,4 +1,4 @@
-package two_pointer.공통원소구하기;
+package two_pointer.p3_2;
 
 import java.io.*;
 import java.util.*;
