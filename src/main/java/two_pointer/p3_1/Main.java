@@ -1,4 +1,4 @@
-package two_pointer.두배열합치기;
+package two_pointer.p3_1;
 
 import java.io.IOException;
 
@@ -14,7 +14,7 @@ public class Main {
             A[i] = readInt();
         }
 
-        readInt();
+//        readInt();
         int M = readInt();
 
         int[] B = new int[M];
