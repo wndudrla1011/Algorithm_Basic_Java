@@ -1,4 +1,4 @@
-package two_pointer.최대매출;
+package two_pointer.p3_3;
 
 import java.io.IOException;
 
