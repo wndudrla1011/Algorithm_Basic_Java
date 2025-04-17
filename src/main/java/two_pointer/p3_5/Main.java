@@ -1,4 +1,4 @@
-package two_pointer.연속된자연수의합;
+package two_pointer.p3_5;
 
 import java.io.*;
 
