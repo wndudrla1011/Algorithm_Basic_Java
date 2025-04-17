@@ -1,8 +1,8 @@
-package two_pointer.최대길이연속부분수열;
+package two_pointer.p3_6;
 
-import java.io.IOException;
+import java.io.*;
 
-public class Main2 {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         int N = readInt();
@@ -13,16 +13,21 @@ public class Main2 {
             A[i] = readInt();
         }
 
-        int max = 0, cnt = 0, lt = 0;
-        for (int rt = 0; rt < N; rt++) {
-            if (A[rt] == 0) cnt++;
-            while (cnt > K) {
-                if (A[lt] == 0) cnt--;
-                lt++;
+        int max = 0, len = 0, cnt;
+        int lt = 0, rt;
+        while (lt < N) {
+            rt = lt; cnt = 0; len = 0;
+            while (true) {
+                if (A[rt++] == 0) cnt++;
+                if (cnt == K + 1) break;
+                len++;
+                if (rt == N) break;
             }
-            max = Math.max(max, rt - lt + 1);
+            if (max < len) max = len;
+            lt++;
         }
 
+        if (len > 0 && max < len) max = len;
         System.out.println(max);
     }
 
