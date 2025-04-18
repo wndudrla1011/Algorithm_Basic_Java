@@ -1,4 +1,4 @@
-package map_tree.아나그램;
+package map_tree.p4_2;
 
 import java.io.*;
 import java.util.*;
