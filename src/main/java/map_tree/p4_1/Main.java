@@ -1,4 +1,4 @@
-package map_tree.학급회장;
+package map_tree.p4_1;
 
 import java.io.*;
 import java.util.*;
