@@ -1,4 +1,4 @@
-package map_tree.매출액의종류;
+package map_tree.p4_3;
 
 import java.io.IOException;
 import java.util.*;
