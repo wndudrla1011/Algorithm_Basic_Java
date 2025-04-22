@@ -1,4 +1,4 @@
-package map_tree.모든아나그램찾기;
+package map_tree.p4_4;
 
 import java.io.*;
 import java.util.*;
