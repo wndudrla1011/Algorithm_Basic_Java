@@ -1,4 +1,4 @@
-package map_tree.K번째큰수;
+package map_tree.p4_5;
 
 import java.io.IOException;
 import java.util.*;
