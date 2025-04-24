@@ -1,4 +1,4 @@
-package stack_queue.올바른괄호;
+package stack_queue.p5_1;
 
 import java.io.*;
 import java.util.Stack;
