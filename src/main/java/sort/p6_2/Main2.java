@@ -1,4 +1,4 @@
-package sort.버블정렬;
+package sort.p6_2;
 
 import java.io.IOException;
 
