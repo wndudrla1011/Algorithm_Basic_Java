@@ -1,4 +1,4 @@
-package stack_queue.공주구하기;
+package stack_queue.p5_6;
 
 import java.io.IOException;
 import java.util.*;
