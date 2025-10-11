@@ -1,4 +1,4 @@
-package sort.삽입정렬;
+package sort.p6_3;
 
 import java.io.IOException;
 
