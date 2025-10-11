@@ -10,7 +10,7 @@ public class Main2 {
         int ans = 0;
 
         for (int i = 2; i <= N; i++) {
-            if (prime[i] == 0) {
+            if (prime[i] == 0) { // 합성수가 아닌 경우
                 ans++;
                 for (int j = i; j <= N; j = j + i) prime[j] = 1;
             }
