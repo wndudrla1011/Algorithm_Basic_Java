@@ -10,7 +10,7 @@ public class Main {
         int ans = 0;
 
         prime[0] = prime[1] = 1;
-        for (int i = 2; i <= Math.sqrt(N); i++) {
+        for (int i = 2; i <= Math.sqrt(N); i++) { // 소수와 합성수 구분 없이 배수 제거(비효율)
             int j = 2;
             while (i * j <= N) {
                 prime[i * j]++;
